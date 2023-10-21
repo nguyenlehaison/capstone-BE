@@ -23,7 +23,7 @@ def setup_db(app):
     # app.config["SQLALCHEMY_DATABASE_URI"] = database_path
     # app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost/capstone'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres_deployment_example_f8ij_user:dfYkqkG0zECFZM1a7G2mJWYXIQa16Qeb@dpg-ckprkp85vl2c73c95du0-a/postgres_deployment_example_f8ij'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://postgres_deployment_example_1adq_user:IywS5JCi0w5kRssLvPBVUfEO1xKywU8n@dpg-ckptsuo1hnes73f8teug-a.oregon-postgres.render.com/postgres_deployment_example_1adq'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     # db = SQLAlchemy(app)
     db.app = app
