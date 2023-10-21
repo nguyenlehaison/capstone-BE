@@ -6,9 +6,9 @@ import os
 from dotenv import find_dotenv, load_dotenv
 
 
-ENV_FILE = find_dotenv()
-if ENV_FILE:
-    load_dotenv(ENV_FILE)
+# ENV_FILE = find_dotenv()
+# if ENV_FILE:
+#     load_dotenv(ENV_FILE)
 
 AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN', 'dev-6gmv1a0co3vnyslf.us.auth0.com')
 ALGORITHMS = os.getenv('ALGORITHMS', ['RS256'])

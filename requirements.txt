@@ -34,4 +34,3 @@ Werkzeug
 wrapt
 zipp
 jose
-dotenv
