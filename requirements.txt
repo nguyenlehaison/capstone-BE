@@ -29,7 +29,7 @@ PyJWT
 rsa
 setuptools
 six
-SQLAlchemy
+SQLAlchemy==1.3.24
 typing_extensions
 Werkzeug
 wrapt
