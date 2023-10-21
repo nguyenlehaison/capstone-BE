@@ -1,5 +1,19 @@
 
-URL: https://capstone-be-8yhm.onrender.com/
+FE-url: https://capstone-fe-umber.vercel.app/
+BE-url: https://capstone-be-8yhm.onrender.com/
+
+because the FE I build on render got error out of memmory, look like the free tier of render not engough for my ionic angular so I use vercel instead of, but the BE I still use render as the requirements
+
+- you can use the api the give below to test by post man or go to the FE to test via my account that I give you.
+
+Full access and role:
+   user22@yopmail.com
+   123456
+
+get:drinks-detail only:
+   hsonnl.test.auth1@gmail.com
+   Halodc@00000
+
 1. Create a new Auth0 Account
 2. Select a unique tenant domain
 3. Create a new, single page web application
