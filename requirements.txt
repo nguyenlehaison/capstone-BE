@@ -1,3 +1,4 @@
+psycopg2
 astroid
 blinker
 cffi
@@ -34,4 +35,3 @@ Werkzeug
 wrapt
 zipp
 jose
-psycopg2
