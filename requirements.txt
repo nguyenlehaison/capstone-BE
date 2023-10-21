@@ -35,3 +35,4 @@ Werkzeug
 wrapt
 zipp
 jose
+gunicorn
