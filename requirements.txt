@@ -34,3 +34,4 @@ Werkzeug
 wrapt
 zipp
 jose
+psycopg2
