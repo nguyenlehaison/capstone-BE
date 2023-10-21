@@ -10,9 +10,12 @@ import os
 # if ENV_FILE:
 #     load_dotenv(ENV_FILE)
 
-AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN', 'dev-6gmv1a0co3vnyslf.us.auth0.com')
-ALGORITHMS = os.getenv('ALGORITHMS', ['RS256'])
-API_AUDIENCE = os.getenv('API_AUDIENCE', 'coffee_shop_api')
+# AUTH0_DOMAIN = os.getenv('AUTH0_DOMAIN', 'dev-6gmv1a0co3vnyslf.us.auth0.com')
+# ALGORITHMS = os.getenv('ALGORITHMS', ['RS256'])
+# API_AUDIENCE = os.getenv('API_AUDIENCE', 'coffee_shop_api')
+AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN')
+ALGORITHMS = os.environ.get('ALGORITHMS')
+API_AUDIENCE = os.environ.get('API_AUDIENCE')
 
 # AuthError Exception
 '''
